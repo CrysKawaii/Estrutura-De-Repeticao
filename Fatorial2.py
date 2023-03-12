@@ -13,7 +13,7 @@ while True:
                 print(c, end='.')
             fat *= c
     print(f'= {fat}')
-    proceed = str(input('Deseja refazer? [S/N}'))
+    proceed = str(input('Deseja refazer? [S/N]'))
     if proceed == 'n':
         break
     else:
